@@ -1,0 +1,13 @@
+//copy by value
+let num1=10;
+let num2=20;
+console.log(num1)
+console.log(num2)
+
+//copy by reference
+
+let array1=[1,2,3,4,5,6,];
+let array2=[7,8,9,10,11,12];
+array1 = array2;
+console.log(array1)
+console.log(array2)
