@@ -1,0 +1,104 @@
+// let array1=[1,2,3,4,5,6,];
+// let array2=[7,8,9,10,11,12];
+// array1 = array2;
+// console.log(array1)
+// console.log(array2)
+
+//Functions
+//Declaration of function
+
+// function getName(name){
+
+//   console.log("My name is" + " " + name)
+// }
+
+// // //callin of function or invoking
+
+// getName("Sindhusha")
+// ngetName("Dilip")
+// getName("Anusha")
+
+// function calculate(a,b){
+//     let calresult ={
+
+//         sum: a+b,
+//         sub: a-b,
+//         mul: a*b,
+//         div: a/b,
+//     }
+    
+//     return calresult;
+// }
+
+// let result = calculate(27,31)
+// console.log(result.sum)
+// console.log(result.sub)
+// console.log(result.mul)
+// console.log(result.div)
+
+//1. create an object and use the object pass parameter
+
+// let mobile = {
+
+//     Brand: "Apple Iphone",
+//     Model: 13,
+//     Color: "Light Pink",
+//     Price: 65000,
+//     Insuanced: true,
+// };
+
+// function displayMobile(obj){
+//     console.log(`
+
+//     Brand: ${obj.Brand}
+//     Model: ${obj.Model}
+//     Color: ${obj.Price}
+//     Insured: ${obj.Insured}
+   
+//     `);
+// }
+
+// displayMobile(mobile)
+
+// // //calling the function
+// // displayMobile(mobile);
+
+// // Array as a parameter to a function
+
+// // function displayFruits(obj) {
+// //   for (let i = 0; i < obj.length; i++) {
+// //     console.log(obj[i]);
+// //   }
+// // }
+// // let fruits = [
+// //   "Apple",
+// //   "Orange",
+// //   "Banana",
+// //   "Mango",
+// //   "Pineapple",
+// //   "Grapes",
+// //   "Strawberry",
+// //   "Watermelon",
+// // ];
+// // displayFruits(fruits);
+
+// // Arrow Function=>ES-6
+// // =>
+// let student = {
+//     name: "Mohan",
+//     age: 20,
+//     address: "Karnataka",
+//     courses: {
+//       course1: "Mern Stack",
+//       Duration: "3 months",
+//     },
+//   };
+  
+//   let getDetails = (student) => {
+//     console.log(student);
+//   };
+  
+//   getDetails(student.name);
+  
+  // Anonymous function
+  // Immediatily Invoked FUnction Expression
